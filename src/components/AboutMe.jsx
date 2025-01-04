@@ -3,12 +3,27 @@ import React from "react";
 const AboutMe = () => {
   return (
     <section id="about" className="py-6">
-      <h2 className="text-3xl font-bold mb-4">About Me</h2>
+      <img src="ME.png" alt="me"></img>
+
+      <div className="x"> 
+      
+
+       
+      <img src="name.png" alt="name" ></img>
+  
       <p>
-        Hi, I'm Wissal, a passionate full-stack developer specializing in web
-        development, API creation, and chatbot integration. Welcome to my
-        portfolio!
+       Passionate software engineer from Tunisia with over 3
+       years of experience in the field. As a versatile professional, I specialize in web development,
+        mobile app development, API management, and machine learning (ML). 
+        My diverse skill set allows me to work across various stages of software development, 
+        making me a Full-Stack Developer with a specialization in ML or a Multidisciplinary Software Engineer.
+         I am committed to delivering high-quality, innovative solutions tailored to meet client needs while continuously exploring the latest advancements in technology
       </p>
+      </div>
+
+
+
+
     </section>
   );
 };

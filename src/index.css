@@ -10,49 +10,45 @@
 /* Body Styling */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f4f7fb;
+  background-color: #e6e6e6;
   color: #333;
   line-height: 1.6;
 }
 
 /* Header Styling */
 header {
-  background-color:gray; /* Blue Background */
+  background-color:rgb(158, 132, 133); /* Blue Background */
   color: white;
   padding: 20px 0;
+  text-align: right;
 }
 
 nav {
-  max-width: 1200px;
+  text-align: right;
+  
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 5px;
 }
-
 nav h1 {
   font-size: 2rem;
   font-weight: 700;
-}
-
-nav ul {
-  display: flex;
-  gap: 20px;
 }
 
 nav a {
   text-decoration: none;
   color: white;
   font-size: 1.1rem;
+  padding: 0 10px;
+  padding-right: 10px;
 }
 
-nav a:hover {
-  text-decoration: underline;
-}
 
 /* About Me Section Styling */
 section#about {
+  display: flex;
   padding: 50px 20px;
   background-color: #ffffff;
   margin-top: 30px;
@@ -60,18 +56,29 @@ section#about {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-section#about h2 {
-  font-size: 2.5rem;
-  font-weight: 600;
-  color: #333;
-  margin-bottom: 15px;
+
+
+
+.x {
+  display: flex;            /* Enable Flexbox */
+  flex-direction: column;   /* Stack items (image and text) vertically */
+  justify-content: center;  /* Center items vertically */
+  align-items: center;      /* Center items horizontally */
+  text-align: center;       /* Center the text */
+  flex-grow: 1; 
 }
+
+img {
+            /* Maintain aspect ratio */
+  margin-bottom: 5px;      /* Space between the image and text */
+}
+
 
 section#about p {
   font-size: 1.2rem;
   line-height: 1.6;
   color: #555;
-  max-width: 800px;
+  padding: 0 80px; 
   margin: 0 auto;
   text-align: center;
 }
