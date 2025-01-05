@@ -147,6 +147,7 @@ section#contact {
   display: flex;
   margin-top: 10px;
   padding: 10px;
+  cursor: pointer;
   
 }
 .cnt-img{
