@@ -103,6 +103,11 @@ section#portfolio {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   justify-content: center;
 }
+.logo{
+  width: 500px;
+  padding: 15px;
+  font-size: 100%;
+}
 
 section#portfolio h2 {
   font-size: 2.5rem;
