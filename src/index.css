@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  padding: 0px 5px;
 }
 
 /* Body Styling */
@@ -17,15 +18,19 @@ body {
 
 /* Header Styling */
 header {
-  background-color:rgb(158, 132, 133); /* Blue Background */
-  color: white;
+  background-color: transparent;
+
+  color: rgb(140, 87, 87);
   padding: 20px 0;
   text-align: right;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 nav {
   text-align: right;
-  
+  color: rgb(140, 87, 87);
   margin: 0 auto;
   display: flex;
   justify-content: right;
@@ -33,16 +38,19 @@ nav {
   padding: 0 5px;
 }
 nav h1 {
+  color: rgb(140, 87, 87);
   font-size: 2rem;
   font-weight: 700;
 }
 
 nav a {
   text-decoration: none;
-  color: white;
-  font-size: 1.1rem;
+  color: rgb(133, 83, 83);
+  font-size: 1.3rem;
   padding: 0 10px;
-  padding-right: 10px;
+  padding-right: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  
 }
 
 
@@ -52,7 +60,7 @@ section#about {
   padding: 50px 20px;
   background-color: #ffffff;
   margin-top: 30px;
-  border-radius: 8px;
+  border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -91,7 +99,7 @@ section#portfolio {
   padding: 50px 20px;
   background-color: #ffffff;
   margin-top: 30px;
-  border-radius: 8px;
+  border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   justify-content: center;
 }
@@ -108,33 +116,7 @@ section#portfolio h2 {
 
 }
 
-.project-card {
-  background-color: white;
-  padding: 15px;
-  border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  margin-bottom: 15px;
-}
 
-.project-card h3 {
-  font-size: 1.5rem;
-  color: #333;
-}
-
-.project-card p {
-  font-size: 1rem;
-  color: #777;
-}
-
-.project-card a {
-  color: #4CAF50;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.project-card a:hover {
-  text-decoration: underline;
-}
 
 /* Contact Section Styling */
 section#contact {
@@ -142,7 +124,7 @@ section#contact {
   padding: 50px 20px;
   background-color: #ffffff;
   margin-top: 30px;
-  border-radius: 8px;
+  border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
@@ -173,30 +155,9 @@ section#contact h2 {
   text-align: center;
 }
 
-form input,
-form textarea {
-  width: 100%;
-  padding: 12px;
-  margin: 10px 0;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  font-size: 1rem;
-  background-color: #f9f9f9;
-}
 
-form button {
-  padding: 12px 20px;
-  background-color: gray; /* Blue Background */
-  color: white;
-  font-size: 1.1rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
 
-form button:hover {
-  background-color: gray; /* Darker Blue */
-}
+
 
 /* Responsive Design for smaller screens */
 @media (max-width: 768px) {
