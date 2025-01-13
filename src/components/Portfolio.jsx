@@ -5,6 +5,10 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio" className="py-6">
+
+      <div   className="a1">  
+
+      
        <div className="box">
          <img src="dev.png" alt="webandmobile" />
         <p>
@@ -16,9 +20,18 @@ const Portfolio = () => {
     
     <img src="webandmobilelogo.png" alt="logo1" className="logo" />
 
-    
+   
+
+
+
+
+
     
      </div>
+
+
+
+
        <div className="box">
        <img src="ai.png" alt="aiandml" />
    <p>
@@ -33,7 +46,10 @@ const Portfolio = () => {
     <img src="aiandmllogo.png" alt="logo2" className="logo" />
     
      </div>
+
+
        <div className="box">
+
        <img src="cyber.png" alt="cyber" />
        <p>
         Cybersecurity
@@ -45,8 +61,38 @@ Certifications like CEH (Certified Ethical Hacker) or CISSP (Certified Informati
 <img src="cyberlogo.png" alt="logo3" className="logo" />
 
 </div>
+</div>
+
+
+
+<div className="a2">
+    <h3>
+      7 june
+    </h3>
+<p>
+
+AI chatbot   7 J U N E ,
+signed for both web and mobile versions, the project provides 
+seamless interaction for users through a web-based interface and a React Native mobile app. 
+The backend, powered by Flask, ensures robust API functionality, 
+while the frontend focuses on delivering an engaging and user-friendly experience.
+ This project highlights your expertise in full-stack development and demonstrates your ability
+  to create versatile and scalable solutions tailored for multiple platforms.
+
+</p>
+
+
+<div className="a3">
+
+<img src="frotend.png" alt="frontend" />
+</div>
+
+
+      
+     </div>
 
     </section>
+    
   );
 };
 
