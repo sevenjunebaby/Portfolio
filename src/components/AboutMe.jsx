@@ -3,14 +3,15 @@ import React from "react";
 const AboutMe = () => {
   return (
     <section id="about" className="py-6">
-      <img src="ME.png" alt="me"></img>
+      <img src="ME.jpg" alt="me"></img>
 
       <div className="x"> 
       
 
-       
-      <img src="name.png" alt="name" ></img>
-  
+      <h1>
+      Wissal Yahia
+    </h1>
+     
       <p>
        Passionate software engineer from Tunisia with over 3
        years of experience in the field. As a versatile professional, I specialize in web development,

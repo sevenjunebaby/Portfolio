@@ -58,7 +58,7 @@ nav a {
 section#about {
   display: flex;
   padding: 50px 20px;
-  background-color: #ffffff;
+  background-color:  #fff ;
   margin-top: 30px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -90,13 +90,18 @@ section#about p {
   margin: 0 auto;
   text-align: center;
 }
+section#about img {
+  height: 300px;
+  width: 300px;
+}
+
 
 /* Portfolio Section Styling */
 section#portfolio {
   align-items: center;
   text-align: center;
   padding: 50px 20px;
-  background-color: #ffffff;
+  background-color: #fff;
   margin-top: 30px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -140,6 +145,7 @@ section#portfolio h2 {
 .box{
   padding: 0px 50px;
   border-radius: 2rem solid;
+  max-width: 50%;
 
 }
 
@@ -149,7 +155,7 @@ section#portfolio h2 {
 section#contact {
   align-items: center;
   padding: 50px 20px;
-  background-color: #ffffff;
+  background-color: #fff   ;
   margin-top: 30px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
