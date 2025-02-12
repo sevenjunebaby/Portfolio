@@ -36,13 +36,11 @@ const Portfolio = () => {
 
        <div className="box">
        <h1>
-       AI Research Development
+       AI Development
     </h1>
    <p>
 
-    Programming languages like Python and libraries such as TensorFlow, PyTorch, and scikit-learn are essential.
-    Learn about data preprocessing, neural networks, and AI concepts like NLP (Natural Language Processing) and computer vision.
-    Tools like LangChain and your experience with chatbots are a great foundation for AI-driven applications.
+   Data Science, particularly in Machine Learning and Deep Learning, mastering programming languages like Python is essential. Familiarity with libraries such as TensorFlow, PyTorch, and scikit-learn will help in building and training models effectively. Key topics to focus on include data preprocessing, neural networks, and advanced AI concepts like Natural Language Processing (NLP) and computer vision. Your experience with chatbots and tools like LangChain provides a strong foundation for developing AI-driven applications.
     </p> 
     
     <img src="aiandmllogo.png" alt="logo2" className="logo" />

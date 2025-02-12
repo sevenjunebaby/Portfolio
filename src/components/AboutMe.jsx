@@ -15,7 +15,7 @@ const AboutMe = () => {
       <p>
        Passionate software engineer from Tunisia with over 3
        years of experience in the field. As a versatile professional, I specialize in web development,
-        mobile app development, API management, and machine learning (ML). 
+        AI development, API management, and machine learning (ML) Deep Learning (DL). 
         My diverse skill set allows me to work across various stages of software development, 
         making me a Full-Stack Developer with a specialization in ML or a Multidisciplinary Software Engineer.
          I am committed to delivering high-quality, innovative solutions tailored to meet client needs while continuously exploring the latest advancements in technology
