@@ -11,8 +11,8 @@
 /* Body Styling */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #e6e6e6;
-  color: #333;
+  background-color: #684a2f;
+  color: #555;
   line-height: 1.6;
 }
 
@@ -30,7 +30,7 @@ header {
 
 nav {
   text-align: right;
-  color: rgb(140, 87, 87);
+  color: #555;
   margin: 0 auto;
   display: flex;
   justify-content: right;
@@ -38,14 +38,14 @@ nav {
   padding: 0 5px;
 }
 nav h1 {
-  color: rgb(140, 87, 87);
+  color: #555;
   font-size: 2rem;
   font-weight: 700;
 }
 
 nav a {
   text-decoration: none;
-  color: rgb(133, 83, 83);
+  color: #555;
   font-size: 1.3rem;
   padding: 0 10px;
   padding-right: 15px;
