@@ -95,7 +95,7 @@ section#about img {
   height: 400px;
   width: 500px;
   padding-left: 32px;
-  box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
+  
 }
 
 
@@ -142,7 +142,8 @@ padding:  20px 0px;
   width: 600px;
   height: 300px;
   box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
-
+  padding: 0%;
+  margin: 0%;
 
 }
 
