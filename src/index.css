@@ -5,13 +5,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  padding: 0px 5px;
+  padding: 5px 15px;
 }
 
 /* Body Styling */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #684a2f;
+  background-color:  #030303 ;
   color: #555;
   line-height: 1.6;
 }
@@ -20,7 +20,7 @@ body {
 header {
   background-color: transparent;
 
-  color: rgb(140, 87, 87);
+  color: #555;
   padding: 20px 0;
   text-align: right;
   border-radius: 15px;
@@ -45,7 +45,7 @@ nav h1 {
 
 nav a {
   text-decoration: none;
-  color: #bb8d78ec;
+  color: #555;
   font-size: 1.3rem;
   padding: 0 10px;
   padding-right: 15px;
@@ -58,10 +58,10 @@ nav a {
 section#about {
   display: flex;
   padding: 50px 20px;
-  background-color:  #fff ;
+  background-color:  #0f0f0f ;
   margin-top: 30px;
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
 }
 
 
@@ -92,9 +92,10 @@ section#about p {
   text-align: center;
 }
 section#about img {
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 500px;
   padding-left: 32px;
+  box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
 }
 
 
@@ -103,11 +104,18 @@ section#portfolio {
   align-items: center;
   text-align: center;
   padding: 50px 20px;
-  background-color: #fff;
+  background-color:  #0f0f0f ;
+  box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
   margin-top: 30px;
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ 
   justify-content: center;
+}
+section#portfolio img{
+  box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
+  padding: 0px 10px 0px; 
+  margin-top: 30px;
+
 }
 .logo{
   width: 500px;
@@ -133,6 +141,8 @@ padding:  20px 0px;
 .a3 img{
   width: 600px;
   height: 300px;
+  box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
+
 
 }
 
@@ -157,10 +167,10 @@ section#portfolio h2 {
 section#contact {
   align-items: center;
   padding: 50px 20px;
-  background-color: #fff   ;
+  background-color:  #0f0f0f ;
   margin-top: 30px;
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
   text-align: center;
 }
 
@@ -181,11 +191,12 @@ section#contact {
   object-fit: cover;
   max-height: 40px;
   max-height: 40px;
+  
 }
 section#contact h2 {
   font-size:0.8rem;
   font-weight: 600;
-  color: #333;
+  color: #555;
   margin-bottom: 15px;
   text-align: center;
 }

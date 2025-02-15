@@ -8,7 +8,7 @@ const Contact = () => {
 
       <div className="cnt">
       <a href="mailto:yahiawissal76@gmail.com">
-          <img src="gmail.jpg" alt="email" className="cnt-img"></img>
+          <img src="gmail.png" alt="email" className="cnt-img"></img>
           </a>
         
         </div>
@@ -25,7 +25,7 @@ const Contact = () => {
         </div>
         <div className="cnt"> 
           <a href="https://www.linkedin.com/in/wissal-yahia-16793a19b/"> 
-          <img src="linkedin.jpg" alt="linkedin" className="cnt-img" ></img>
+          <img src="linkedin.png" alt="linkedin" className="cnt-img" ></img>
           </a>  
         
         
