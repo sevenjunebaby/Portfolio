@@ -11,13 +11,13 @@ const Portfolio = () => {
       
        <div className="box">
        <h1>
-      Web Development
+      AI Development
 
     </h1>
         <p>
      
-
-   Technologies like HTML, CSS, JavaScript, React, Node.js, and Laravel will help you build interactive websites and web applications. 
+         AI Development efficient APIs using Flask, FastAPI, Node.js, and Django to enhance AI-driven applications. On the frontend, I use
+        React to create seamless user experiences.
   </p>
     
     <img src="webandmobilelogo.png" alt="logo1" className="logo" />
@@ -36,11 +36,14 @@ const Portfolio = () => {
 
        <div className="box">
        <h1>
-       AI Development
+       AI Engineer
     </h1>
    <p>
-
-   Data Science, particularly in Machine Learning and Deep Learning, mastering programming languages like Python is essential. Familiarity with libraries such as TensorFlow, PyTorch, and scikit-learn will help in building and training models effectively. Key topics to focus on include data preprocessing, neural networks, and advanced AI concepts like Natural Language Processing (NLP) and computer vision. Your experience with chatbots and tools like LangChain provides a strong foundation for developing AI-driven applications.
+     AI Engineering specialize
+in machine learning and deep learning, leveraging libraries such as TensorFlow and
+scikit-learn to develop predictive models and intelligent application features.
+Additionally, I have worked with retrieval-augmented generation (RAG) and large
+language models (LLMs)
     </p> 
     
     <img src="aiandmllogo.png" alt="logo2" className="logo" />

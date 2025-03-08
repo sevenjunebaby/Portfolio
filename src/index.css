@@ -19,7 +19,11 @@ body {
 /* Header Styling */
 header {
   background-color: transparent;
-
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  
+  
   color: #555;
   padding: 20px 0;
   text-align: right;
