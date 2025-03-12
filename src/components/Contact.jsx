@@ -1,9 +1,55 @@
-import React from "react";
+import React , { useState } from "react";
+
 
 const Contact = () => {
+
+
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (message.trim()) {
+      alert("Message sent anonymously!");
+      setMessage(""); // Clear input after submission
+    } else {
+      alert("Please enter a message before sending.");
+    }
+  };
+
   return (
     <section id="contact" className="py-6">
      
+
+
+     <div >
+  <h3 className="text-lg font-semibold mb-2">Message Anonymously</h3>
+  <form onSubmit={handleSubmit}>
+    <textarea
+      rows="8"
+      placeholder="Type here..."
+      value={message}
+      onChange={(e) => setMessage(e.target.value)}
+    >
+
+     
+    </textarea>
+    <br></br>
+    <img
+          src="/send.png"
+          alt="Send"
+          className="cnt-img cursor-pointer"
+          onClick={handleSubmit} // Manually trigger form submission
+        />
+    
+  </form>
+</div>
+
+
+
+
+
+
+
       <div className="links">
 
       <div className="cnt">

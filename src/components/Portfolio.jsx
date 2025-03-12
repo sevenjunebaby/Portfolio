@@ -8,7 +8,21 @@ const Portfolio = () => {
 
       <div   className="a1">  
 
-      
+      <div className="box">
+       <h1>
+       AI Engineer
+    </h1>
+   <p>
+     AI Engineering specialize
+in machine learning and deep learning, leveraging libraries such as TensorFlow and
+scikit-learn to develop predictive models and intelligent application features.
+Additionally, I have worked with retrieval-augmented generation (RAG) and large
+language models (LLMs)
+    </p> 
+    
+    <img src="" alt="logo2" className="logo" />
+    
+     </div>
        <div className="box">
        <h1>
       AI Development
@@ -20,7 +34,7 @@ const Portfolio = () => {
         React to create seamless user experiences.
   </p>
     
-    <img src="webandmobilelogo.png" alt="logo1" className="logo" />
+    <img src="" alt="logo1" className="logo" />
 
    
 
@@ -34,21 +48,7 @@ const Portfolio = () => {
 
 
 
-       <div className="box">
-       <h1>
-       AI Engineer
-    </h1>
-   <p>
-     AI Engineering specialize
-in machine learning and deep learning, leveraging libraries such as TensorFlow and
-scikit-learn to develop predictive models and intelligent application features.
-Additionally, I have worked with retrieval-augmented generation (RAG) and large
-language models (LLMs)
-    </p> 
-    
-    <img src="aiandmllogo.png" alt="logo2" className="logo" />
-    
-     </div>
+      
 
 
       

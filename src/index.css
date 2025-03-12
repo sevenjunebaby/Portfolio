@@ -213,6 +213,17 @@ section#contact h2 {
   text-align: center;
 }
 
+section#contact textarea {
+  font-size:0.8rem;
+  font-weight: 600; 
+  color: #555;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color:  #0f0f0f ;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
+  width: 500px;
+}
 
 
 
@@ -265,5 +276,6 @@ section#contact h2 {
   section#contact h2 {
     font-size: 2rem;
   }
+
 }
 
