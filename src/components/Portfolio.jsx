@@ -9,36 +9,9 @@ const Portfolio = () => {
       <div   className="a1">  
 
       <div className="box">
-       <h1>
-       AI Engineer
-    </h1>
-   <p>
-     AI Engineering specialize
-in machine learning and deep learning, leveraging libraries such as TensorFlow and
-scikit-learn to develop predictive models and intelligent application features.
-Additionally, I have worked with retrieval-augmented generation (RAG) and large
-language models (LLMs)
-    </p> 
+       
     
-    <img src="" alt="logo2" className="logo" />
-    
-     </div>
-       <div className="box">
-       <h1>
-      AI Development
-
-    </h1>
-        <p>
-     
-         AI Development efficient APIs using Flask, FastAPI, Node.js, and Django to enhance AI-driven applications. On the frontend, I use
-        React to create seamless user experiences.
-  </p>
-    
-    <img src="" alt="logo1" className="logo" />
-
    
-
-
 
 
 
