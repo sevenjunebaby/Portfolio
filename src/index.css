@@ -221,6 +221,7 @@ section#contact textarea {
   text-align: center;
   background-color:  #0f0f0f ;
   border-radius: 15px;
+  border-color: #0f0f0f;
   box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
   width: 500px;
 }
