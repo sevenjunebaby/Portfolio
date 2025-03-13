@@ -116,7 +116,7 @@ section#portfolio {
   justify-content: center;
 }
 section#portfolio img{
-  box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
+  
   padding: 0px 10px 0px; 
   margin-top: 30px;
 
@@ -160,9 +160,17 @@ section#portfolio h2 {
   margin-bottom: 15px;
 }
 .box{
+  display: flex;
   padding: 0px 50px;
   border-radius: 2rem solid;
   max-width: 50%;
+
+}
+.box img{
+  height: 100px;
+  width: 300px;
+  margin: 2.3%;
+  box-shadow: nane;
 
 }
 
