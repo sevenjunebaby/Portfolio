@@ -14,8 +14,8 @@ const AboutMe = () => {
      
       <p>
       I am a software engineer who has been involved for more than 4 years. A professional with expertise in
-AI Engineer & AI Development ,can be referred to as a Full-Stack Developer with ML & DL & NLP
-Specialization or a Multidisciplinary Software Engineer and Generative AI in different kind application</p>
+AI Engineer & AI Development can be referred to as a Full-Stack Developer 
+ or a Multidisciplinary Software Engineer and Generative AI in different kind application</p>
       </div>
 
 
