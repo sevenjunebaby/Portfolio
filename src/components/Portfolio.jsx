@@ -86,7 +86,7 @@ Using Scrapy and scikit-learn, I built AI pipelines that start with web scraping
     recommendation, and anomaly detection.
 </p>
 <div className="a3">
-<a href="https://github.com/sevenjunebaby/Machine_Learning">
+<a href="https://github.com/sevenjunebaby/Post-Clustering-AI-Applications">
           <img src="POSTCLUSTER.jpg" alt="link " ></img>
           </a>
 
