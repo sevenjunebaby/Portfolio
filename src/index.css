@@ -85,6 +85,12 @@ img {
   margin-bottom: 5px;  
      /* Space between the image and text */
 }
+img {
+  max-width: 100%;
+  height: auto;
+ 
+}
+
 
 
 section#about p {
@@ -95,12 +101,15 @@ section#about p {
   margin: 0 auto;
   text-align: center;
 }
+
 section#about img {
-  height: 400px;
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
   padding-left: 32px;
-  
+  padding-right: 32px;
 }
+
 
 
 /* Portfolio Section Styling */
@@ -140,13 +149,16 @@ text-align: center;
 justify-content: center;
 align-items: center;
 }
-.a3 img{
-  width: 600px;
-  height: 300px;
+
+.a3 img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
   box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
   padding: 0%;
   margin: 0%;
 }
+
 
 
 
@@ -163,13 +175,17 @@ section#portfolio h2 {
   max-width: 50%;
 
 }
-.box img{
-  height: 100px;
-  width: 300px;
+
+.box img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  max-height: 100px;
   margin: 2.3%;
   box-shadow: nane;
 
 }
+
 
 
 
