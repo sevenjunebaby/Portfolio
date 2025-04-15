@@ -101,7 +101,7 @@ section#about p {
 }
 
 section#about img {
-  width: 100%;
+  width: auto;
   max-width: 500px;
   height: auto;
   padding-left: 32px;
