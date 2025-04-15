@@ -96,6 +96,8 @@ section#about p {
   padding: 0 50px; 
   margin: 0 auto;
   text-align: center;
+  width: auto;
+  max-width: 1000px;
 }
 
 section#about img {
@@ -241,7 +243,8 @@ section#contact textarea {
   border-radius: 15px;
   border-color: #0f0f0f;
   box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
-  width: 500px;
+  width: auto;
+  max-width: 500px;
 }
 
 
