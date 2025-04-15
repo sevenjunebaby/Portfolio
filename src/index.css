@@ -176,7 +176,7 @@ section#portfolio h2 {
 }
 
 .box img {
-  width: 100%;
+  width: auto;
   max-width: 300px;
   height: auto;
   max-height: 100px;
