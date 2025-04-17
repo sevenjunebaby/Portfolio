@@ -222,9 +222,10 @@ section#contact {
  
   max-height: 20px;
   max-height: 40px;
-  
+  cursor: pointer;
   
 }
+
 section#contact h2 {
   font-size:0.8rem;
   font-weight: 600;
