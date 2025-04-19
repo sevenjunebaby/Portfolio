@@ -2,7 +2,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 /* Minimal Reset */
 *,
 *::before,
@@ -104,11 +103,14 @@ section#about p {
 }
 
 section#about img {
-  width: auto;
+  width: 100%;
   max-width: 500px;
   height: auto;
+  max-height: 50%;
   padding-left: 32px;
   padding-right: 32px;
+  padding: 0%;
+  margin: 0%;
 }
 
 
@@ -179,13 +181,13 @@ section#portfolio h2 {
 }
 
 .box img {
-  width: auto;
+  width: 100%;
   max-width: 300px;
   height: auto;
   max-height: 100px;
   margin: 2.3%;
   box-shadow: nane;
-
+  max-height: auto;
 }
 
 
