@@ -17,7 +17,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-6">
+    <section id="contact" >
      
 
 
@@ -30,14 +30,12 @@ const Contact = () => {
       value={message}
       onChange={(e) => setMessage(e.target.value)}
     >
-
-     
     </textarea>
     <br></br>
     <img
           src="/send.png"
           alt="Send"
-          className="cnt-img cursor-pointer"
+          className="cnt-img cursor-pointer "
           onClick={handleSubmit} // Manually trigger form submission
         />
     

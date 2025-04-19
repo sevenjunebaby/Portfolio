@@ -16,6 +16,7 @@ const App = () => {
   return (
     <div>
       <Header />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <main className="px-4 py-6">
         <AboutMe />
         <Portfolio />

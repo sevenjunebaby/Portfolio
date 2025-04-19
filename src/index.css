@@ -1,4 +1,9 @@
 /* General Reset */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Minimal Reset */
 *,
 *::before,
 *::after {
@@ -22,8 +27,6 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  
-  
   color: #555;
   padding: 20px 0;
   text-align: right;
@@ -219,10 +222,10 @@ section#contact {
   
 }
 .cnt-img{
- 
+  
   max-height: 20px;
   max-height: 40px;
-  cursor: pointer;
+ 
   
 }
 
