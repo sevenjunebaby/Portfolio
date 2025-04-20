@@ -1,7 +1,5 @@
 /* General Reset */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 /* Minimal Reset */
 *,
 *::before,
