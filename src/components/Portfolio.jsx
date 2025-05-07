@@ -6,29 +6,6 @@ const Portfolio = () => {
   return (
     <section id="portfolio" className="py-6">
 
-      <div   className="a1">  
-
-      <div className="box">
-      <img src="Python.png  " alt="logo192cikit-Learn "></img>
-      <img src="Scikit-Learn.png  " alt="Scikit-Learn "></img>
-      <img src="flask.png  " alt="logo192cikit-Learn "></img>
-      <img src="PyTorch.png  " alt="PyTorch"></img>
-      <img src="fastapi.png  " alt="fastapi"></img>
-      <img src="TensorFlow.png  " alt="TensorFlow"></img>
-      <img src="django.png  " alt="django"></img>
-      <img src="logo192.png  " alt="logo192cikit-Learn "></img>
-          
-     </div>
-
-
-
-
-      
-
-
-      
-</div>
-
 
 
 <div className="a2">
