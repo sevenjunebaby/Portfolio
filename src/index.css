@@ -233,6 +233,7 @@ section#contact {
   max-width: 60px;
   cursor: pointer;
   
+  
 }
 
 section#contact h2 {
@@ -261,7 +262,7 @@ section#contact textarea {
 
 
 /* Responsive Design for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   header {
     padding: 15px 0;
   }
@@ -308,6 +309,23 @@ section#contact textarea {
   section#contact h2 {
     font-size: 0.8rem;
   }
+  
+  section#contact a{
+    height: 30px;
+    width: 20px;
+    margin: 0%;
+    padding: 0px 10px 10px 0px;
+    
+  }
+  section#contact .links{
+   
+    margin: 0%;
+    padding: 0px 10px 10px 0px;
+    
+  }
+  
+ 
+
 
 }
 
