@@ -60,7 +60,9 @@ nav a {
 
 /* About Me Section Styling */
 section#about {
-  display: flex;
+  justify-content: center;  /* Center items vertically */
+  align-items: center;      /* Center items horizontally */
+  text-align: center; 
   padding: 50px 20px;
   background-color:  #0f0f0f ;
   margin-top: 30px;
@@ -97,19 +99,21 @@ section#about p {
   margin: 0 auto;
   text-align: center;
   width: auto;
-  max-width: 1000px;
+ 
 }
 
 section#about img {
   width: 100%;
   max-width: 500px;
-  height: auto;
-  max-height: 50%;
+  height: 100%;
   padding-left: 32px;
   padding-right: 32px;
   padding: 0%;
   margin: 0%;
-}
+
+
+
+} 
 
 
 
@@ -206,11 +210,12 @@ section#contact {
   display: flex;
   align-items: center;
   justify-content: center;
+ 
   
 }
 .cnt{
   display: flex;
-  margin-top: 10px;
+  
   
   
   
@@ -222,10 +227,11 @@ section#contact {
   
 }
 .cnt-img{
-  
-  max-height: 20px;
+  height: auto;
+  width: auto;
   max-height: 40px;
- 
+  max-width: 60px;
+  cursor: pointer;
   
 }
 
@@ -304,4 +310,5 @@ section#contact textarea {
   }
 
 }
+
 

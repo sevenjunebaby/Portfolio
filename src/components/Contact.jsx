@@ -29,6 +29,8 @@ const Contact = () => {
       placeholder="Type here..."
       value={message}
       onChange={(e) => setMessage(e.target.value)}
+      style={{ width: '175px', height: '146px' }}
+      
     >
     </textarea>
     <br></br>
