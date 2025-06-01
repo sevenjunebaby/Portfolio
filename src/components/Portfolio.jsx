@@ -6,6 +6,18 @@ const Portfolio = () => {
   return (
     <section id="portfolio" className="py-6">
 
+      <div   className="a1">  
+
+     
+
+
+
+      
+
+
+      
+</div>
+
 
 
 <div className="a2">
