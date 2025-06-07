@@ -6,21 +6,9 @@ const Portfolio = () => {
   return (
     <section id="portfolio" className="py-6">
 
-      <div   className="a1">  
-
-     
-
-
-
-      
-
-
-      
-</div>
-
-
-
 <div className="a2">
+
+  <div>
     <h3>
       7 JUNE
     </h3>
@@ -42,10 +30,9 @@ while the frontend focuses on delivering an engaging and user-friendly experienc
              <img src="frotend.png" alt="frontend" />  
           </a>
 
-
-
-
 </div>
+</div>
+<div>
 <h3>
 Machine Learning
 </h3>
@@ -63,7 +50,11 @@ Throughout my journey, I’ve built and trained models for various tasks such as
           </a>
 
 </div>
+</div>
 
+
+
+<div>
 <h3>
 Post Clustering AI Applications
 </h3>
@@ -80,7 +71,7 @@ Using Scrapy and scikit-learn, I built AI pipelines that start with web scraping
           </a>
 
 </div>
-
+</div>
 
 
 
