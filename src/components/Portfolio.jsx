@@ -15,8 +15,8 @@ const Portfolio = () => {
 <p>
 
 AI chatbot   7 J U N E ,
-signed for both web and mobile versions, the project provides 
-seamless interaction for users through a web-based interface and a React Native mobile app. 
+ the project provides 
+seamless interaction for users through a React js interface 
 The backend, powered by Flask, ensures robust API functionality, 
 while the frontend focuses on delivering an engaging and user-friendly experience.
  This project highlights your expertise in full-stack development and demonstrates your ability
@@ -37,8 +37,7 @@ while the frontend focuses on delivering an engaging and user-friendly experienc
 Machine Learning
 </h3>
 <p>
-I have hands-on experience working with machine learning and deep learning technologies. 
-Throughout my journey, I’ve built and trained models for various tasks such as classification,
+ I’ve built and trained models for various tasks such as classification,
  regression, and image recognition. I worked with popular frameworks like TensorFlow, Keras, and PyTorch,
   and applied techniques such as neural networks, CNNs, and decision trees to solve real-world problems.
    My work involved data preprocessing, model evaluation, and optimization to improve accuracy and performance. 

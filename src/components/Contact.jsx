@@ -59,8 +59,8 @@ const Contact = () => {
         
         </div>
         <div className="cnt">
-          <a href="tel:+21656944230">
-          <img src="phone.png" alt="phone" className="cnt-img"></img>
+          <a href="https://leetcode.com/u/sevenjunebaby/">
+          <img src="leetcode.png" alt="leetcode" className="cnt-img"></img>
           </a>
         
         </div>

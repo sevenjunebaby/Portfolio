@@ -13,9 +13,8 @@ const AboutMe = () => {
     </h1>
      
       <p>
-      I am a software engineer who has been involved for more than 4 years. A professional with expertise in
-AI Engineer & AI Development can be referred to as a Full-Stack Developer 
- or a Multidisciplinary Software Engineer and Generative AI in different kind application</p>
+     Software Engineer with 4 years of experience, specializing in Generative AI and Data Science.
+      A versatile professional who can be described as a Full-Stack Developer or a Multidisciplinary Software Engineer. </p>
       <div className="cv">
         <a href="/cv.pdf" download>
         <img src="cv.png" alt="cv"  />
