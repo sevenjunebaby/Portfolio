@@ -4,7 +4,7 @@ const Portfolio = () => {
   
 
   return (
-    <section id="portfolio" className="py-6">
+    <section id="portfolio" >
 
 <div className="a2">
 
