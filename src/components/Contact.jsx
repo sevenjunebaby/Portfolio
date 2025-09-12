@@ -1,49 +1,31 @@
-import React , { useState } from "react";
+import React from "react";
 
 
 const Contact = () => {
-
-
-  const [message, setMessage] = useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (message.trim()) {
-      alert("Message sent anonymously!");
-      setMessage(""); // Clear input after submission
-    } else {
-      alert("Please enter a message before sending.");
-    }
-  };
-
   return (
     <section id="contact" >
      
 
+ <h3 className="text-lg font-semibold mb-2">Certificats </h3>
 
-     <div >
-  <h3 className="text-lg font-semibold mb-2">Message Anonymously</h3>
-  <form onSubmit={handleSubmit}>
-    <textarea
-      rows="8"
-      placeholder="Type here..."
-      value={message}
-      onChange={(e) => setMessage(e.target.value)}
-      style={{ width: '175px', height: '146px' }}
-      
-    >
-    </textarea>
-    <br></br>
-    <img
-          src="/send.png"
-          alt="Send"
-          className="cnt-img cursor-pointer "
-          onClick={handleSubmit} // Manually trigger form submission
-        />
-    
-  </form>
+
+<div className="ach" >
+ <a href="/genAI&NLP.pdf" target="_blank">
+        <img src="genAI&NLP.png" alt="genaiandnlp"  />
+      </a>
+
+ <a href="/Ai&App.pdf" target="_blank">
+        <img src="Ai&App.png" alt="Ai&App"  />
+      </a>
+
+
+
+ <a href="/machinelearning.pdf" target="_blank">
+        <img src="machinelearning.png" alt="machinelearning"  />
+      </a>
+
+
 </div>
-
 
 
 

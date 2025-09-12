@@ -247,11 +247,6 @@ section#contact {
 }
 .cnt{
   display: flex;
-  
-  
-  
-  
-  
 }
 .cnt-a{
  padding: 0px;
@@ -293,9 +288,15 @@ section#contact textarea {
   width: auto;
   max-width: 500px;
 }
+.ach img{
+  width: 200px;
+  height: 130px;
+}
 
+.ach-img:hover{
+  transform: scale(1.1);
 
-
+}
 
 /* Responsive Design for smaller screens */
 @media (max-width: 480px) {
