@@ -1,6 +1,4 @@
-/* General Reset */
 
-/* Minimal Reset */
 *,
 *::before,
 *::after {
@@ -8,6 +6,15 @@
   padding: 0;
   box-sizing: border-box;
   padding: 5px 10px;
+  
+}
+/* Apply slow transition for all elements */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  transition: background-color 2s ease, transform 2s ease;
 }
 
 /* Body Styling */
@@ -20,6 +27,8 @@ body {
   line-height: 1.6;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  
+
 }
 .gradient-text {
   
