@@ -35,6 +35,7 @@ section#portfolio img {
 }
 
 
+
 /* Header Styling */
 header {
   background-color: transparent;
@@ -190,25 +191,22 @@ h1 {
   font-size: 35px; 
 }
 .cv {
-  width: 60px; 
-  height: 80px;
-  box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.4);
+  background-color: transparent;
+  width: 100px; 
+  height: 100%;
   margin: 15px;
   padding: 0px;
   cursor: pointer; 
   transition: transform 0.2s ease;
-  
-  
 }
 .cv a{
   display: block;
-  width: 60px;
   padding: 0px;
+  margin: 0px;
 }
-
-
-
-
+.cv img{
+  border-radius: 12px;
+}
 .cv:hover {
   transform: scale(1.1); 
 }

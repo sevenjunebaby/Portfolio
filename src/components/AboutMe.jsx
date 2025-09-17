@@ -18,7 +18,7 @@ AI and Data Science. A versatile professional who can be described as a Full-Sta
 Developer or a Multidisciplinary Software Engineer. </p>
       <div className="cv">
         <a href="/cv.pdf" target="_blank">
-        <img src="cv.png" alt="cv"  />
+        <img  src="cv.png" alt="cv" />
       </a>
       
 </div>
