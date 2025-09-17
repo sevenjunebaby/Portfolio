@@ -6,7 +6,7 @@ const Contact = () => {
     <section id="contact" >
      
 
- <h3 className="text-lg font-semibold mb-2">Certificats </h3>
+ <h3 className="gradient-text">Certificats </h3>
 
 
 <div className="ach" >

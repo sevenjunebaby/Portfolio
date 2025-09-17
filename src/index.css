@@ -13,10 +13,27 @@
 /* Body Styling */
 body {
   font-family: 'Arial', sans-serif;
-  background-color:  #030303 ;
+   background: radial-gradient(circle at top left, #ffd6c9, transparent 40%),
+              radial-gradient(circle at top right, #c9d6ff, transparent 40%),
+              linear-gradient(to bottom right, #ffffff, #f9f9f9);
   color: #555;
   line-height: 1.6;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+.gradient-text {
+  
+  font-weight: bold;
+  background: linear-gradient(90deg, #e63946, #6a4c93);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* for Firefox */
+  color: transparent;
+}
+section#portfolio img {
+  border-radius: 25px; /* adjust value (px, %, rem) */
+}
+
 
 /* Header Styling */
 header {
@@ -64,7 +81,7 @@ section#about {
   align-items: center;      /* Center items horizontally */
   text-align: center; 
   padding: 50px 20px;
-  background-color:  #0f0f0f ;
+  background-color: transparent ;
   margin-top: 30px;
   border-radius: 15px;
   box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
@@ -122,7 +139,7 @@ section#portfolio {
   align-items: center;
   text-align: center;
   padding: 50px 20px;
-  background-color:  #0f0f0f ;
+  background-color:  transparent;
   box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
   margin-top: 30px;
   border-radius: 15px;
@@ -231,7 +248,7 @@ section#portfolio h2 {
 section#contact {
   align-items: center;
   padding: 50px 20px;
-  background-color:  #0f0f0f ;
+  background-color: transparent ;
   margin-top: 30px;
   border-radius: 15px;
   box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);

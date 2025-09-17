@@ -9,8 +9,8 @@ const Portfolio = () => {
 <div className="a2">
 
   <div>
-    <h3>
-      7 JUNE
+    <h3 className="gradient-text">
+      7 J U N E
     </h3>
 <p>
 
@@ -33,8 +33,8 @@ while the frontend focuses on delivering an engaging and user-friendly experienc
 </div>
 </div>
 <div>
-<h3>
-Machine Learning
+<h3 className="gradient-text">
+MACHINE LEARNING
 </h3>
 <p>
  I’ve built and trained models for various tasks such as classification,
@@ -54,8 +54,8 @@ Machine Learning
 
 
 <div>
-<h3>
-Post Clustering AI Applications
+<h3 className="gradient-text">
+DATA SCIENCE
 </h3>
 <p>
 Using Scrapy and scikit-learn, I built AI pipelines that start with web scraping and end with meaningful insights.
