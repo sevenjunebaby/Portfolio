@@ -97,7 +97,10 @@ section#about {
   box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
 }
 
-
+section#portfolio img{
+max-width: 400px;
+max-height: 200px;
+}
 
 
 .x {

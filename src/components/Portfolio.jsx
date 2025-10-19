@@ -7,45 +7,48 @@ const Portfolio = () => {
     <section id="portfolio" >
 
 <div className="a2">
-
-  <div>
+ 
     <h3 className="gradient-text">
-      7 J U N E
+      AI & APPLICATION
     </h3>
-<p>
 
-AI chatbot   7 J U N E ,
- the project provides 
-seamless interaction for users through a React js interface 
-The backend, powered by Flask, ensures robust API functionality, 
-while the frontend focuses on delivering an engaging and user-friendly experience.
- This project highlights your expertise in full-stack development and demonstrates your ability
-  to create versatile and scalable solutions tailored for multiple platforms.
-
-</p>
-
-
+ <br />
 <div className="a3">
+
 <a href="https://github.com/sevenjunebaby/AI-7j">
-             <img src="frotend.png" alt="frontend" />  
+             <img src="https://specials-images.forbesimg.com/imageserve/65c08bba43faeeedd41c7a2f/960x0.jpg" alt="frontend" />  
           </a>
+          <a href="https://github.com/sevenjunebaby/RAG">
+             <img src="https://technation.news/wp-content/uploads/2025/07/From-LLMs-to-RAG.png" alt="rag" />  
+          </a>
+           <a href="https://github.com/sevenjunebaby/Xpro">
+             <img src="https://github.com/sevenjunebaby/Xpro/blob/main/test.png?raw=true" alt="rag" />  
+          </a>
+           <a href="https://github.com/sevenjunebaby/SmartDocAI">
+             <img src="https://i.ytimg.com/vi/sze8mgTI2Xg/maxresdefault.jpg" alt="rag" />  
+          </a>
+</div>
 
-</div>
-</div>
+
+
 <div>
 <h3 className="gradient-text">
-MACHINE LEARNING
+ML & DATA SCIENCE
 </h3>
-<p>
- I’ve built and trained models for various tasks such as classification,
- regression, and image recognition. I worked with popular frameworks like TensorFlow, Keras, and PyTorch,
-  and applied techniques such as neural networks, CNNs, and decision trees to solve real-world problems.
-   My work involved data preprocessing, model evaluation, and optimization to improve accuracy and performance. 
-   This experience deepened my understanding of AI and its potential to drive innovation in different industries.
-</p>
+ <br />
+
 <div className="a3">
+  
 <a href="https://github.com/sevenjunebaby/Machine_Learning">
-          <img src="Machine-Learning.png" alt="link " ></img>
+          <img src="https://www.repsol.com/content/dam/repsol-corporate/es/energia-e-innovacion/robot-machine-learning.jpg.transform/rp-rendition-sm/image.jpg" alt="link " ></img>
+          </a>
+
+<a href="https://github.com/sevenjunebaby/Clustering">
+          <img src="https://online.keele.ac.uk/wp-content/uploads/2023/07/data-clustering.jpg" alt="link " ></img>
+          </a>
+
+<a href="https://github.com/sevenjunebaby/Classification">
+          <img src="https://www.lepide.com/blog/wp-content/uploads/2020/03/role-of-data-classification.png" alt="link " ></img>
           </a>
 
 </div>
@@ -53,24 +56,7 @@ MACHINE LEARNING
 
 
 
-<div>
-<h3 className="gradient-text">
-DATA SCIENCE
-</h3>
-<p>
-Using Scrapy and scikit-learn, I built AI pipelines that start with web scraping and end with meaningful insights.
- Scrapy helps collect data from websites, which I then preprocess using sklearn tools like StandardScaler.
-  I apply clustering algorithms such as KMeans or DBSCAN from sklearn to group data—like customer behavior or product trends.
-   Post-clustering, I use PCA or TSNE for visualization and silhouette_score for evaluation. This approach turns raw web data into actionable insights for tasks like segmentation,
-    recommendation, and anomaly detection.
-</p>
-<div className="a3">
-<a href="https://github.com/sevenjunebaby/Post-Clustering-AI-Applications">
-          <img src="POSTCLUSTER.jpg" alt="link " ></img>
-          </a>
 
-</div>
-</div>
 
 
 
