@@ -13,7 +13,7 @@ const AboutMe = () => {
     </h1>
      
       <p>
-    SOFTWARE ENGINEER STUDENT . AI Engineer Learner specializing in ML RAG LLM NLP CV Data Science & Analytics . Cybersecurity Learner . A versatile professional who can be described as a Full-Stack
+    Software Engineer Student . AI Engineer Learner specializing in ML RAG LLM NLP CV Data Science & Analytics . Cybersecurity Learner . A versatile professional who can be described as a Full-Stack
 Developer or a Multidisciplinary Software Engineer. </p>
       <div className="cv">
         <a href="/cv.pdf" target="_blank">
