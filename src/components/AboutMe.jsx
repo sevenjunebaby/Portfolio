@@ -13,8 +13,8 @@ const AboutMe = () => {
     </h1>
      
       <p>
-    Software Engineer with 3 years of experience,Ethical Hacking Learner & AI Engineer Learner specializing in Generative
-AI and Data Science. A versatile professional who can be described as a Full-Stack
+    Software Engineer Student . AI Engineer Learner specializing in Generative
+AI and Data Science & Cybersecurity Learner . A versatile professional who can be described as a Full-Stack
 Developer or a Multidisciplinary Software Engineer. </p>
       <div className="cv">
         <a href="/cv.pdf" target="_blank">
