@@ -9,7 +9,7 @@ const Portfolio = () => {
 <div className="a2">
  
     <h3 className="gradient-text">
-      AI & APPLICATION
+      AI APPLICATION
     </h3>
 
  <br />

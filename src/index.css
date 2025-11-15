@@ -93,8 +93,7 @@ section#about {
   padding: 50px 20px;
   background-color: transparent ;
   margin-top: 30px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
+  
 }
 
 section#portfolio img{
@@ -260,8 +259,7 @@ section#contact {
   padding: 50px 20px;
   background-color: transparent ;
   margin-top: 30px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
+  
   text-align: center;
 }
 

@@ -6,7 +6,7 @@ const Contact = () => {
     <section id="contact" >
      
 
- <h3 className="gradient-text">Certificats </h3>
+ {/* <h3 className="gradient-text">Certificats </h3>
 
 
 <div className="ach" >
@@ -25,11 +25,11 @@ const Contact = () => {
       </a>
 
 
-</div>
+</div> */}
 
 
 
-
+<h3 c>stay in touch</h3>
 
 
       <div className="links">
@@ -70,7 +70,7 @@ const Contact = () => {
 
            
       </div>
-      <h2> @copy right reserved 2025</h2>
+      <h6>  Made by @Me thanks for visiting my portfolio ♡</h6>
     </section>
   );
 };
