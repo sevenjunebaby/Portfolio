@@ -22,7 +22,7 @@ const Portfolio = () => {
              <img src="https://technation.news/wp-content/uploads/2025/07/From-LLMs-to-RAG.png" alt="rag" />  
           </a>
            <a href="https://github.com/sevenjunebaby/Xpro">
-             <img src="https://github.com/sevenjunebaby/Xpro/blob/main/test.png?raw=true" alt="rag" />  
+             <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/22606/images/1446e76-f181-6047-4e73-8d8ba3c6a50e_object_detection_1.webp" alt="rag" />  
           </a>
            <a href="https://github.com/sevenjunebaby/SmartDocAI">
              <img src="https://i.ytimg.com/vi/sze8mgTI2Xg/maxresdefault.jpg" alt="rag" />  
