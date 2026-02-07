@@ -87,9 +87,10 @@ nav a {
 
 /* About Me Section Styling */
 section#about {
-  justify-content: center;  /* Center items vertically */
-  align-items: center;      /* Center items horizontally */
-  text-align: center; 
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+
   padding: 50px 20px;
   background-color: transparent ;
   margin-top: 30px;
@@ -99,51 +100,64 @@ section#about {
 section#portfolio img{
 max-width: 400px;
 max-height: 200px;
+
 }
 
 
 .x {
-  display: flex;            /* Enable Flexbox */
-  flex-direction: column;   /* Stack items (image and text) vertically */
-  justify-content: center;  /* Center items vertically */
-  align-items: center;      /* Center items horizontally */
-  text-align: center;       /* Center the text */
-  flex-grow: 1; 
+  margin-top: 12%; /* pushes it to the bottom */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-img {
-            /* Maintain aspect ratio */
-  margin-bottom: 5px;  
-     /* Space between the image and text */
-}
+
+
 
 
 
 
 section#about p {
   font-size: 1.2rem;
-  line-height: 1.6;
+  
   color: #555;
   padding: 0 50px; 
   margin: 0 auto;
-  text-align: center;
+
   width: auto;
  
 }
-
-section#about img {
+.me {
+  display: block;        /* important */
   width: 100%;
-  max-width: 500px;
-  height: 100%;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding: 0%;
-  margin: 0%;
+  max-width: 550px;
+  height: 600px;
+  margin: 60px auto;     /* top/bottom 50px, left/right auto = center */
+}
 
 
+/* Container to position the vertical line */
 
-} 
 
+.education{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+.cycle{
+  display: flex;
+  text-align: left;
+  margin-top: 10%;
+  margin-bottom: 25%;
+
+}
+.cycle img{
+  max-height: fit-content;
+}
 
 
 /* Portfolio Section Styling */
@@ -152,12 +166,10 @@ section#portfolio {
   text-align: center;
   padding: 50px 20px;
   background-color:  transparent;
-  box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
-  margin-top: 30px;
-  border-radius: 15px;
- 
+  margin-top: 150px;
   justify-content: center;
 }
+
 
 .logo{
   width: 500px;
@@ -165,12 +177,10 @@ section#portfolio {
   font-size: 100%;
 }
 .a2{
-  display: block;
+display: block;
 border-radius: 2px solid;
 border-color: #555;
-text-align: center;
-justify-content: center;
-align-items: center;
+
 }
 .a1{
  display: flex;
@@ -203,20 +213,24 @@ h1 {
 }
 .cv {
   background-color: transparent;
-  width: 100px; 
-  height: 100%;
-  margin: 15px;
-  padding: 0px;
+
+
   cursor: pointer; 
   transition: transform 0.2s ease;
+  padding: 0%;
+  margin: 0%;
 }
 .cv a{
   display: block;
-  padding: 0px;
-  margin: 0px;
+  padding: 0%;
+  margin: 0%;
 }
 .cv img{
   border-radius: 12px;
+  padding: 0%;
+  margin: 0%;
+  width: 100px;
+  height: 120px;
 }
 .cv:hover {
   transform: scale(1.1); 
@@ -239,6 +253,9 @@ section#portfolio h2 {
   max-width: 50%;
 
 }
+.project{
+  margin-bottom: 10%;
+}
 
 .box img {
   width: 100%;
@@ -258,7 +275,7 @@ section#contact {
   align-items: center;
   padding: 50px 20px;
   background-color: transparent ;
-  margin-top: 30px;
+ 
   
   text-align: center;
 }

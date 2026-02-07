@@ -7,10 +7,86 @@ const Portfolio = () => {
     <section id="portfolio" >
 
 <div className="a2">
- 
-    <h3 className="gradient-text">
-      AI APPLICATION
-    </h3>
+
+ <div className="education">
+   
+  
+  <div className="cycle">
+    <h2 className="gradient-text">EDUCATION</h2>
+     <br />
+    
+<h5>
+  University of Science Gabes <br />
+  Licence Diploma | Software Engineering and Information Systems<br />
+  <a href="https://fsg.rnu.tn/en"> 
+  <img src="fsg.png" alt="fsg" />
+  </a>
+
+</h5>
+
+<img  src="line.png" alt="frontend" /> 
+<div
+  style={{
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    height: "5.5cm", // same as your vertical line if any
+  }}
+>
+  <h5>September 2023</h5>
+  <h5>June 2026</h5>
+  
+</div>
+
+
+
+
+  </div>
+
+  
+</div>
+
+ <div className="education">
+   
+  
+  <div className="cycle">
+<h2 className="gradient-text">EXPERRIENCE</h2>
+     <br />
+    
+<h5>
+  KIFAHI<br />
+  Internship | Bi Bot & Data Analysis<br />
+  <a href="https://www.linkedin.com/company/kifahi/"> 
+  <img src="k.png" alt="fsg" />
+  </a>
+
+</h5>
+
+<img  src="line.png" alt="frontend" /> 
+<div
+  style={{
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    height: "5.5cm", // same as your vertical line if any
+  }}
+>
+  <h5>January 2026</h5>
+  <h5>May 2026</h5>
+  
+</div>
+
+ </div>
+
+  
+</div>
+
+
+  <div className="project">
+     <h2 className="gradient-text">
+      SELF-DRIVEN PROJECTS 
+    </h2>
+   
 
  <br />
 <div className="a3">
@@ -32,9 +108,7 @@ const Portfolio = () => {
 
 
 <div>
-<h3 className="gradient-text">
-ML & DATA SCIENCE
-</h3>
+
  <br />
 
 <div className="a3">
@@ -67,7 +141,7 @@ ML & DATA SCIENCE
 
       
      </div>
-
+</div>
     </section>
     
   );

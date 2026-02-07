@@ -29,7 +29,7 @@ const Contact = () => {
 
 
 
-<h3 c>stay in touch</h3>
+<h3 c>Connect</h3>
 
 
       <div className="links">
