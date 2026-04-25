@@ -20,10 +20,10 @@ html {
 /* Body Styling */
 body {
   font-family: 'Arial', sans-serif;
-   background: radial-gradient(circle at top left, #ffd6c9, transparent 40%),
-              radial-gradient(circle at top right, #c9d6ff, transparent 40%),
-              linear-gradient(to bottom right, #ffffff, #f9f9f9);
-  color: #555;
+   background: radial-gradient(circle at top left, #000000, transparent 40%),
+              
+              linear-gradient(to bottom right, #000000, #000000);
+  color: #989797;
   line-height: 1.6;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -38,6 +38,7 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text; /* for Firefox */
   color: transparent;
+  
 }
 section#portfolio img {
   border-radius: 25px; /* adjust value (px, %, rem) */
@@ -48,26 +49,22 @@ section#portfolio img {
 /* Header Styling */
 header {
   background-color: transparent;
-  position: sticky;
+  position: relative;
   top: 0;
   z-index: 1000;
   color: #555;
   padding: 20px 0;
-  text-align: right;
   border-radius: 15px;
   margin-bottom: 10px;
-  padding-bottom: 0px;
 }
 
 nav {
-  text-align: right;
-  color: #555;
-  margin: 0 auto;
   display: flex;
-  justify-content: right;
+  justify-content: center;   /* centers horizontally */
   align-items: center;
-  padding: 0 5px;
+  gap: 20px;                 /* spacing between items */
 }
+
 nav h1 {
   color: #555;
   font-size: 2rem;
@@ -78,10 +75,6 @@ nav a {
   text-decoration: none;
   color: #555;
   font-size: 1.3rem;
-  padding: 0 10px;
-  padding-right: 15px;
-  
-  
 }
 
 
@@ -122,16 +115,17 @@ max-height: 200px;
 section#about p {
   font-size: 1.2rem;
   
-  color: #555;
+  color: #7d7d7d;
   padding: 0 50px; 
   margin: 0 auto;
 
   width: auto;
  
+  max-width: 700px;
 }
 .me {
   display: block;        /* important */
-  width: 100%;
+  width: 70%;
   max-width: 550px;
   height: 600px;
   margin: 60px auto;     /* top/bottom 50px, left/right auto = center */
