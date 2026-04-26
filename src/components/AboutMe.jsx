@@ -11,7 +11,7 @@ const AboutMe = () => {
       
 
       <h1 className="gradient-text">
-      Wissal Yahia
+      WISSAL YAHIA
     </h1>
    
               

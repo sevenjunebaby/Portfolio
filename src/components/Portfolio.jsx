@@ -12,7 +12,7 @@ const Portfolio = () => {
    
   
   <div className="cycle">
-    <h2 className="gradient-text">EDUCATION</h2>
+    <h3 className="gradient-text">EDUCATION</h3>
      <br />
     
 <h5>
@@ -42,24 +42,13 @@ const Portfolio = () => {
 
 
   </div>
-
-  
-</div>
-
- <div className="education">
-   
-  
   <div className="cycle">
-<h2 className="gradient-text">EXPERRIENCE</h2>
+<h3 className="gradient-text">EXPERRIENCE</h3>
      <br />
     
 <h5>
   KIFAHI<br />
   Internship | Bi Bot & Data Analysis<br />
-  <a href="https://www.linkedin.com/company/kifahi/"> 
-  <img src="k.png" alt="fsg" />
-  </a>
-
 </h5>
 
 <img  src="line.png" alt="frontend" /> 
@@ -81,11 +70,12 @@ const Portfolio = () => {
   
 </div>
 
+ 
 
   <div className="project">
-     <h2 className="gradient-text">
-      SELF-DRIVEN PROJECTS 
-    </h2>
+     <h3 className="gradient-text">
+      SELF-DRIVEN MODELING 
+    </h3>
    
 
  <br />
@@ -100,9 +90,7 @@ const Portfolio = () => {
            <a href="https://github.com/sevenjunebaby/Xpro">
              <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/22606/images/1446e76-f181-6047-4e73-8d8ba3c6a50e_object_detection_1.webp" alt="rag" />  
           </a>
-           <a href="https://github.com/sevenjunebaby/SmartDocAI">
-             <img src="https://i.ytimg.com/vi/sze8mgTI2Xg/maxresdefault.jpg" alt="rag" />  
-          </a>
+          
 </div>
 
 

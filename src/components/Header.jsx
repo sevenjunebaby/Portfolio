@@ -15,9 +15,9 @@ const Header = () => {
   return (
     <header >
       <nav>
-        <a className="gradient-text" href="#about" onClick={(e) => handleScroll(e, "about")} >About</a>
-        <a className="gradient-text" href="#portfolio" onClick={(e) => handleScroll(e, "portfolio")} >Portfolio</a>
-        <a className="gradient-text" href="#contact" onClick={(e) => handleScroll(e, "contact")} >Contact</a>
+        <h4 className="gradient-text" href="#about" onClick={(e) => handleScroll(e, "about")} >ABOUT</h4>
+        <h4 className="gradient-text" href="#portfolio" onClick={(e) => handleScroll(e, "portfolio")} >PORTFOLIO</h4>
+        <h4 className="gradient-text" href="#contact" onClick={(e) => handleScroll(e, "contact")} >CONTACT</h4>
       </nav>
     </header>
   );

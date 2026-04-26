@@ -41,7 +41,8 @@ body {
   
 }
 section#portfolio img {
-  border-radius: 25px; /* adjust value (px, %, rem) */
+  border-radius: 25px; 
+  /* adjust value (px, %, rem) */
 }
 
 
@@ -65,17 +66,8 @@ nav {
   gap: 20px;                 /* spacing between items */
 }
 
-nav h1 {
-  color: #555;
-  font-size: 2rem;
-  font-weight: 700;
-}
 
-nav a {
-  text-decoration: none;
-  color: #555;
-  font-size: 1.3rem;
-}
+
 
 
 /* About Me Section Styling */
@@ -125,7 +117,8 @@ section#about p {
 }
 .me {
   display: block;        /* important */
-  width: 70%;
+  
+  width: 60%;
   max-width: 550px;
   height: 600px;
   margin: 60px auto;     /* top/bottom 50px, left/right auto = center */
@@ -136,8 +129,8 @@ section#about p {
 
 
 .education{
-  display: flex;
-  flex-direction: column;
+  display:flex;
+ justify-content: center;
   align-items: center;
 
   
@@ -153,7 +146,9 @@ section#about p {
   max-height: fit-content;
 }
 
-
+nav h4{
+  cursor: pointer;
+}
 /* Portfolio Section Styling */
 section#portfolio {
   align-items: center;
@@ -186,12 +181,13 @@ padding:  20px 0px;
 text-align: center;
 justify-content: center;
 align-items: center;
+gap: 15px;
 }
 
 .a3 img {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
+  width: 300px;
+  
+  height: 150px;
   box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
   padding: 0%;
   margin: 0%;
