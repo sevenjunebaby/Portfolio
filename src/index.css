@@ -6,9 +6,8 @@
   padding: 0;
   box-sizing: border-box;
   padding: 5px 10px;
-  
 }
-/* Apply slow transition for all elements */
+
 html {
   scroll-behavior: smooth;
 }
@@ -17,37 +16,29 @@ html {
   transition: background-color 2s ease, transform 2s ease;
 }
 
-/* Body Styling */
 body {
   font-family: 'Arial', sans-serif;
-   background: radial-gradient(circle at top left, #000000, transparent 40%),
-              
+  background: radial-gradient(circle at top left, #000000, transparent 40%),
               linear-gradient(to bottom right, #000000, #000000);
   color: #989797;
   line-height: 1.6;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
-
 }
+
 .gradient-text {
-  
   font-weight: bold;
   background: linear-gradient(90deg, #e63946, #6a4c93);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text; /* for Firefox */
+  background-clip: text;
   color: transparent;
-  
 }
+
 section#portfolio img {
-  border-radius: 25px; 
-  /* adjust value (px, %, rem) */
+  border-radius: 25px;
 }
 
-
-
-/* Header Styling */
 header {
   background-color: transparent;
   position: relative;
@@ -61,36 +52,27 @@ header {
 
 nav {
   display: flex;
-  justify-content: center;   /* centers horizontally */
+  justify-content: center;
   align-items: center;
-  gap: 20px;                 /* spacing between items */
+  gap: 20px;
 }
 
-
-
-
-
-/* About Me Section Styling */
 section#about {
   display: flex;
   margin-left: 10%;
   margin-right: 10%;
-
   padding: 50px 20px;
-  background-color: transparent ;
+  background-color: transparent;
   margin-top: 30px;
-  
 }
 
-section#portfolio img{
-max-width: 400px;
-max-height: 200px;
-
+section#portfolio img {
+  max-width: 400px;
+  max-height: 200px;
 }
-
 
 .x {
-  margin-top: 12%; /* pushes it to the bottom */
+  margin-top: 12%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,137 +80,116 @@ max-height: 200px;
   text-align: center;
 }
 
-
-
-
-
-
-
 section#about p {
   font-size: 1.2rem;
-  
   color: #7d7d7d;
-  padding: 0 50px; 
+  padding: 0 50px;
   margin: 0 auto;
-
   width: auto;
- 
   max-width: 700px;
 }
+
 .me {
-  display: block;        /* important */
-  
+  display: block;
   width: 60%;
   max-width: 550px;
   height: 600px;
-  margin: 60px auto;     /* top/bottom 50px, left/right auto = center */
+  margin: 60px auto;
 }
 
-
-/* Container to position the vertical line */
-
-
-.education{
-  display:flex;
- justify-content: center;
+.education {
+  display: flex;
+  justify-content: center;
   align-items: center;
-
-  
 }
-.cycle{
+
+.cycle {
   display: flex;
   text-align: left;
   margin-top: 10%;
   margin-bottom: 25%;
-
 }
-.cycle img{
+
+.cycle img {
   max-height: fit-content;
 }
 
-nav h4{
+nav h4 {
   cursor: pointer;
 }
-/* Portfolio Section Styling */
+
 section#portfolio {
   align-items: center;
   text-align: center;
   padding: 50px 20px;
-  background-color:  transparent;
+  background-color: transparent;
   margin-top: 150px;
   justify-content: center;
 }
 
-
-.logo{
+.logo {
   width: 500px;
   padding: 15px;
   font-size: 100%;
 }
-.a2{
-display: block;
-border-radius: 2px solid;
-border-color: #555;
 
+.a2 {
+  display: block;
+  border-radius: 2px solid;
+  border-color: #555;
 }
-.a1{
- display: flex;
- flex-direction: row;
-}
-.a3{
-display: flex;
-padding:  20px 0px;
-text-align: center;
-justify-content: center;
-align-items: center;
-gap: 15px;
+
+.a3 {
+  display: flex;
+  padding: 20px 0px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 
 .a3 img {
   width: 300px;
-  
   height: 150px;
   box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
   padding: 0%;
   margin: 0%;
   transition: transform 0.2s ease;
 }
-.a3 img:hover{
+
+.a3 img:hover {
   transform: scale(1.05);
 }
 
-
 h1 {
-  font-size: 35px; 
+  font-size: 35px;
 }
+
 .cv {
   background-color: transparent;
-
-
-  cursor: pointer; 
+  cursor: pointer;
   transition: transform 0.2s ease;
   padding: 0%;
   margin: 0%;
 }
-.cv a{
+
+.cv a {
   display: block;
   padding: 0%;
   margin: 0%;
 }
-.cv img{
+
+.cv img {
   border-radius: 12px;
   padding: 0%;
   margin: 0%;
   width: 100px;
   height: 120px;
 }
+
 .cv:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
-
-
-
-
 
 section#portfolio h2 {
   font-size: 2.5rem;
@@ -236,98 +197,46 @@ section#portfolio h2 {
   color: #333;
   margin-bottom: 15px;
 }
-.box{
-  display: flex;
-  padding: 0px 50px;
-  border-radius: 2rem solid;
-  max-width: 50%;
 
-}
-.project{
+.project {
   margin-bottom: 10%;
 }
 
-.box img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  max-height: 100px;
-  margin: 2.3%;
-  box-shadow: nane;
-  max-height: auto;
-}
-
-
-
-
-/* Contact Section Styling */
 section#contact {
   align-items: center;
   padding: 50px 20px;
-  background-color: transparent ;
- 
-  
+  background-color: transparent;
   text-align: center;
 }
 
-.links{
+.links {
   display: flex;
   align-items: center;
   justify-content: center;
- 
-  
 }
-.cnt{
+
+.cnt {
   display: flex;
 }
-.cnt-a{
- padding: 0px;
-  cursor: pointer;
-  
-}
-.cnt-img{
+
+.cnt-img {
   height: auto;
   width: auto;
   max-height: 40px;
   max-width: 60px;
   cursor: pointer;
-  
-  
 }
-.cnt-img:hover{
-  transform: scale(1.1);
 
+.cnt-img:hover {
+  transform: scale(1.1);
 }
 
 section#contact h2 {
-  font-size:0.8rem;
+  font-size: 0.8rem;
   font-weight: 600;
   color: #555;
   margin-bottom: 15px;
   text-align: center;
-}
-
-section#contact textarea {
-  font-size:0.8rem;
-  font-weight: 600; 
-  color: #555;
-  margin-bottom: 15px;
-  text-align: center;
-  background-color:  #0f0f0f ;
-  border-radius: 15px;
-  border-color: #0f0f0f;
-  box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.466);
-  width: auto;
-  max-width: 500px;
-}
-.ach img{
-  width: 200px;
-  height: 130px;
-}
-
-.ach-img:hover{
-  transform: scale(1.1);
-
 }
 
 /* Responsive Design for tablets */
@@ -393,16 +302,15 @@ section#contact textarea {
   }
 }
 
-/* Responsive Design for smaller screens */
+/* Responsive Design for mobile */
 @media (max-width: 480px) {
   header {
     padding: 10px 0;
   }
 
   nav {
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   nav h4 {
@@ -410,75 +318,31 @@ section#contact textarea {
   }
 
   section#about {
-    padding: 20px 15px;
-    margin-left: 2%;
-    margin-right: 2%;
+    padding: 30px 15px;
   }
 
-  .me {
-    width: 90%;
-    height: 300px;
-    margin: 20px auto;
-  }
-
-  section#about h1 {
-    font-size: 1.8rem;
+  section#about h2 {
+    font-size: 2rem;
   }
 
   section#about p {
-    font-size: 0.9rem;
-    padding: 0 15px;
-  }
-
-  .education {
-    flex-direction: column;
-  }
-
-  .cycle {
-    margin-top: 3%;
-    margin-bottom: 5%;
-    text-align: center;
-  }
-
-  .cycle h3 {
-    font-size: 1.2rem;
-  }
-
-  .cycle h5 {
-    font-size: 0.8rem;
-  }
-
-  .a3 {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-  }
-
-  .a3 img {
-    width: 280px;
-    height: 140px;
-  }
-
-  .cv img {
-    width: 80px;
-    height: 100px;
+    font-size: 1rem;
   }
 
   section#portfolio {
-    padding: 20px 15px;
-    margin-top: 50px;
+    padding: 30px 15px;
   }
 
   section#portfolio h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   section#contact {
-    padding: 20px 15px;
+    padding: 30px 15px;
   }
 
   section#contact h2 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .links {
@@ -490,10 +354,6 @@ section#contact textarea {
   .cnt-img {
     max-height: 40px;
     max-width: 55px;
-  }
-
-  .logo {
-    width: 300px;
   }
 }
 

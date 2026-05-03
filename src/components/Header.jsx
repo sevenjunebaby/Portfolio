@@ -6,7 +6,7 @@ const handleScroll = (e, id) => {
   const headerHeight = document.querySelector("header").offsetHeight;
   
   window.scrollTo({
-    top: element.offsetTop - headerHeight - 20, // Adjust 20px as needed
+    top: element.offsetTop - headerHeight - 20,
     behavior: "smooth",
   });
 };
@@ -22,6 +22,5 @@ const Header = () => {
     </header>
   );
 };
-
 
 export default Header;
