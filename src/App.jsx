@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Projects from "./components/Projects";
 
 const App = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const App = () => {
       <main className="px-4 py-6">
         <AboutMe />
         <Portfolio />
+        <Projects />
         <Contact />
       </main>
     </div>

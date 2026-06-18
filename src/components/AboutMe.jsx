@@ -5,11 +5,11 @@ const AboutMe = () => {
     <section id="about" >
       <img  className="me" src="me.png" alt="me"></img>
       <div className="x"> 
-        <h1 className="gradient-text">
+        <h1>
           WISSAL YAHIA
         </h1>
         <p>
-          Final Year Software Engineer Student . AI Learner specializing in ML RAG LLM NLP CV Data Science & Analytics . A versatile professional who can be described as a Full-Stack Developer or a Multidisciplinary Software Engineer.
+          Software Engineer & Information Systems Graduate seeking a Software Engineer position. Passionate about AI Engineering, with a strong interest in Generative AI, Machine Learning, and Data Science. Experienced in full-stack software development and committed to applying industry best practices through real-world projects. Multidisciplinary engineer with strong analytical, problem-solving, and software design skills, capable of developing scalable and intelligent solutions.
         </p>
         <div className="cv">
           <a href="/cv.pdf" target="_blank">

@@ -15,9 +15,10 @@ const Header = () => {
   return (
     <header >
       <nav>
-        <h4 className="gradient-text" href="#about" onClick={(e) => handleScroll(e, "about")} >ABOUT</h4>
-        <h4 className="gradient-text" href="#portfolio" onClick={(e) => handleScroll(e, "portfolio")} >PORTFOLIO</h4>
-        <h4 className="gradient-text" href="#contact" onClick={(e) => handleScroll(e, "contact")} >CONTACT</h4>
+        <h4  href="#about" onClick={(e) => handleScroll(e, "about")} >ABOUT</h4>
+        <h4 href="#portfolio" onClick={(e) => handleScroll(e, "portfolio")} >QUALIFICATIONS</h4>
+        <h4 href="#projects" onClick={(e) => handleScroll(e, "projects")} >PROJECTS</h4>
+        <h4  href="#contact" onClick={(e) => handleScroll(e, "contact")} >CONTACT</h4>
       </nav>
     </header>
   );
