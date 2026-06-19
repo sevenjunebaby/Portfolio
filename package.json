@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ajv": "^8.20.0",
     "framer-motion": "^12.38.0",
     "i18next": "^26.0.8",
     "react": "^19.0.0",
