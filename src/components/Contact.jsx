@@ -31,7 +31,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
-      <h6>  Made by @Me thanks for visiting my portfolio ♡</h6>
+      <h6>  Owner of AI Agent <a href="https://sevenjune.vercel.app/"> @SEVENJUNE </a></h6>
     </section>
   );
 };

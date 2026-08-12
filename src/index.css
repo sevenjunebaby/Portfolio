@@ -194,6 +194,15 @@ section#portfolio {
 }
 
 
+.pdf-thumbnail {
+  width: 200px;
+  height: auto;
+  padding: 0px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
 .a3 img:hover {
   transform: scale(1.05);
 }

@@ -9,7 +9,9 @@ const AboutMe = () => {
           WISSAL YAHIA
         </h1>
         <p>
-          Software Engineer & Information Systems Graduate seeking a Software Engineer position. Passionate about AI Engineering, with a strong interest in Generative AI, Machine Learning, and Data Science. Experienced in full-stack software development and committed to applying industry best practices through real-world projects. Multidisciplinary engineer with strong analytical, problem-solving, and software design skills, capable of developing scalable and intelligent solutions.
+          Software Engineer and Information Systems graduate with a strong foundation in full-stack web development and a growing specialization in Artificial Intelligence, Machine Learning, and Data Science. Experienced in building web applications, backend services, REST
+APIs, and data-driven solutions using modern development frameworks and tools. Strong analytical and problem-solving abilities, with
+an interest in developing scalable, intelligent, and maintainable software solutions.
         </p>
         <div className="cv">
           <a href="/cv.pdf" target="_blank">

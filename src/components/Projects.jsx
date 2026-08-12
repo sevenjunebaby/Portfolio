@@ -5,6 +5,10 @@ const Projects = () => {
     <section id="projects" >
      
     <div className="project">
+    
+    
+   
+
           <h3 >SELF-DRIVEN MODELING</h3>
           <br />
           <div className="a3">
@@ -25,7 +29,7 @@ const Projects = () => {
                 <img src="https://www.repsol.com/content/dam/repsol-corporate/es/energia-e-innovacion/robot-machine-learning.jpg.transform/rp-rendition-sm/image.jpg" alt="link" ></img>
               </a>
               <a href="https://github.com/sevenjunebaby/Clustering">
-                <img src="https://github.com/sevenjunebaby/Clustering/raw/main/cluster.png" alt="link" ></img>
+                <img src="https://online.keele.ac.uk/media/mageplaza/blog/post/d/a/data-clustering.jpg" alt="link" ></img>
               </a>
               <a href="https://github.com/sevenjunebaby/Classification">
                 <img src="https://www.lepide.com/blog/wp-content/uploads/2020/03/role-of-data-classification.png" alt="link" ></img>
